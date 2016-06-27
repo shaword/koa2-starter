@@ -1,3 +1,7 @@
 # koa2-starter
 
-koa v2.x start template
+npm install -g pm2
+
+npm install
+
+npm start

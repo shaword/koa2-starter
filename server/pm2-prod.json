@@ -1,0 +1,20 @@
+{
+  "apps": [{
+    "name": "koa2-starter-prod",
+    "script": "server/dist/app.js",
+    "exec_mode": "cluster",
+    "instances": 0,
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "watch": false,
+    "error_file": "./server/log/err.log",
+    "out_file": "./server/log/out.log",
+    "merge_logs": true,
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }]
+}

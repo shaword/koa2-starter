@@ -1,0 +1,13 @@
+# logs
+logs
+*.log
+npm-debug.log*
+server/log
+
+# runtime data
+pids
+*.pid
+*.seed
+
+# dependency directory
+node_modules
